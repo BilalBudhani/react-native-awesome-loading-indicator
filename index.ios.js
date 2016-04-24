@@ -23,6 +23,15 @@ const SleekLoadingIndicator = React.createClass({
     loading: React.PropTypes.bool,
   },
 
+  renderText(){
+    if(this.props.text){
+      return <Text style={styles.loadingText}>{this.props.text}</Text> 
+    }else{
+      return <View/>
+    }
+  },
+
+
   render() {
     if (this.props.loading) {
       return (
@@ -30,7 +39,7 @@ const SleekLoadingIndicator = React.createClass({
           style={styles.container}>
             <View style={styles.loadingContainer}>
 
-            <Text style={styles.loadingText}>{this.props.text}</Text>
+            {this.renderText()}
 
             <View style={styles.spinnerContainer}>
               <ActivityIndicatorIOS
