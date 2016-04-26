@@ -27,7 +27,7 @@ const SleekLoadingIndicator = React.createClass({
     if(this.props.text){
       return <Text style={styles.loadingText}>{this.props.text}</Text> 
     }else{
-      return <View/>
+      return null; 
     }
   },
 
