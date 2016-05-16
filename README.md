@@ -2,9 +2,12 @@
 I was looking for a drop-in, lightweight and cool looking loading component for my app. I couldn't find one so, I wrote it myself.
 A sleek loading indicator for React Native apps for iOS and Android.
 
-iOS
+In action on __iOS__
+
 ![](http://g.recordit.co/p2Cs4yDtHm.gif)  
-Android
+
+In action on __Android__
+
 ![](http://g.recordit.co/Bc3SG9UCH3.gif)
 
 
