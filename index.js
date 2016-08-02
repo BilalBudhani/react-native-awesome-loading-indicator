@@ -4,7 +4,6 @@ let React = require('react');
 let {
    View,
    Text,
-   ActivityIndicatorIOS,
    StyleSheet
 } = require('react-native');
 let styles = require('./styles');

@@ -1,6 +1,6 @@
 {
   "name": "react-native-sleek-loading-indicator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sleek Loading Indicator for React Native",
   "main": "index.js",
   "scripts": {
