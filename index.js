@@ -9,11 +9,14 @@ let {
 let styles = require('./styles');
 let LoadingIndicator = require('./loader');
 
-const SleekLoadingIndicator = React.createClass({
+let PropTypes = require('prop-types');
+let createReactClass = require('create-react-class');
+
+const SleekLoadingIndicator = createReactClass({
 
   propTypes: {
-    text: React.PropTypes.string,
-    loading: React.PropTypes.bool,
+    text: PropTypes.string,
+    loading: PropTypes.bool,
   },
 
   getDefaultProps() {

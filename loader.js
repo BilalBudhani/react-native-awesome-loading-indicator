@@ -9,7 +9,10 @@ let {
 } = require('react-native');
 let styles = require('./styles');
 
-module.exports = React.createClass({
+let PropTypes = require('prop-types');
+let createReactClass = require('create-react-class');
+
+module.exports = createReactClass({
    render() {
       return (
          <View style={styles.loadingContainer}>
